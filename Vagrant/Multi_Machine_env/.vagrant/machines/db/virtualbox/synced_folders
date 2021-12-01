@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/Multi_Machine_env/environment":{"guestpath":"/home/vagrant/Multi_Machine_env/environment","hostpath":"/Users/aliamin/Vagrant/Multi_Machine_env/environment","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/aliamin/Vagrant/Multi_Machine_env","disabled":false,"__vagrantfile":true}}}

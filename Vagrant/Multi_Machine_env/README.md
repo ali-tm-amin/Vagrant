@@ -19,6 +19,9 @@
 * Exit the DB and go back to the app 
 * `vagrant ssh app`
 * run `printenv DB_HOST` if it doesnt print it
-* create it `export DB_HOST="mongod://192.168.10.150:27017/post"`
+* create it `export DB_HOST="mongodb://192.168.56.4:27017/posts"`
 
-* ` node seed.js`
+*  `npm start` `node seeds/seed.js`
+
+* copy file to vm `"mongodb://192.168.10.150:27017/posts"`
+* Eco `'export DB_HOST="mongodb://192.168.10.150:27017/posts"' >> .bashrc -y` in the app provision file

@@ -7,3 +7,9 @@
  `sudo systemctl enable mongod`
 * To verify whether the installation has completed successfully, we will connect to the MongoDB database server using the mongo tool and print the connection status: `mongo --eval 'db.runCommand({ connectionStatus: 1 })'`
 * `systemctl status mongod`
+
+## Commands ##
+* `vagrant ssh db`
+* `sudo systemctl status mongod`
+* exit the VM, then `cd /ect`
+* `sudo nano mongod.conf`

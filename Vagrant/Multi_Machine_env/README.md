@@ -13,3 +13,12 @@
 * `sudo systemctl status mongod`
 * exit the VM, then `cd /ect`
 * `sudo nano mongod.conf`
+* `sudo systemctl restart mongod`
+* `sudo systemctl enable mongod`
+* `sudo systemctl status mongod`
+* Exit the DB and go back to the app 
+* `vagrant ssh app`
+* run `printenv DB_HOST` if it doesnt print it
+* create it `export DB_HOST="mongod://192.168.10.150:27017/post"`
+
+* ` node seed.js`

@@ -12,5 +12,6 @@ Vagrant.configure("2") do |config|
     db.vm.network "private_network", ip:"192.168.56.4"
     db.vm.synced_folder ".", "/home/vagrant/Multi_Machine_env"
     db.vm.provision "shell", path: "./provision_db.sh"
+    Eco'export DB_HOST="mongodb://192.168.10.150:27017/posts"
   end
 end

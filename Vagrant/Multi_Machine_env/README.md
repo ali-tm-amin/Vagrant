@@ -25,3 +25,4 @@
 
 * copy file to vm `"mongodb://192.168.10.150:27017/posts"`
 * Eco `'export DB_HOST="mongodb://192.168.10.150:27017/posts"' >> .bashrc -y` in the app provision file
+*
